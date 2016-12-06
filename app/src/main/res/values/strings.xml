@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">TED Feed</string>
+
+    <!-- Text for play button -->
+    <string name="details_play">Play\nvideo</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">Internet connectivity is required to display the TED talks catalog.
+        \n\nPlease check Your network connection.</string>
+
+    <!-- Error message when the retrieved xml is empty -->
+    <string name="no_data">There are no TED Talks available at the moment.</string>
+
+</resources>

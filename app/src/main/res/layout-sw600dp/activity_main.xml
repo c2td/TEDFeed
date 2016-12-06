@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/catalog_fragment"
+        android:name="com.application.pm.tedfeed.CatalogFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.application.pm.tedfeed.DetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical">
+
+    </fragment>
+
+    <!-- Empty view is visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+</LinearLayout>
